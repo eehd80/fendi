@@ -869,8 +869,10 @@ legend {
 }
 
 .mainscript {
+  margin: 25px;
   text-align: center;
   font-family: Noto Sans KR;
+  color: #fff;
 }
 
 .fendi {
@@ -897,7 +899,7 @@ legend {
 }
 
 .mscript {
-  margin-top: 30px;
+  margin: 30px 15px;
   font-size: 13px;
   font-style: normal;
   font-weight: 250;
@@ -905,13 +907,27 @@ legend {
   letter-spacing: -0.715px;
 }
 
-.section-g {
-  padding-top: 50px;
+.section-artdirection {
+  padding: 75px 20px 0;
 }
+
 .section-g .section-tit {
   font-size: 50px;
   color: #fff;
   text-align: center;
+  font-family: Petit Formal Script;
+  font-weight: 400;
+}
+.section-g .section-jew {
+  font-family: Petit Formal Script;
+  font-size: 16px;
+  line-height: 200%;
+  font-weight: 100;
+  letter-spacing: -0.5px;
+  position: absolute;
+  padding-top: 15px;
+  text-align: center;
+  color: #5c5d55;
 }
 .section-g .section-contents {
   margin-top: 20px;
@@ -1036,8 +1052,14 @@ legend {
      object-fit: cover;
 }
 
+.section-event {
+  position: absolute;
+  z-index: 10;
+  margin-top: -500px;
+}
+
 .text-event {
-  color: #000;
+  color: #ffffff;
   text-align: center;
   font-family: Noto Sans KR;
   font-size: 90px;
@@ -1059,7 +1081,8 @@ legend {
 }
 
 .section2-tit {
-  color: rgba(6, 6, 6, 0.7);
+  color: #333;
+  font-family: "Rufina", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -1090,7 +1113,7 @@ a:focus {
 }
 
 .fp-slider-items.slick-initialized.slick-slider {
-  padding: 38px 0 0;
+  padding: 10px 0 0;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1172,7 +1195,8 @@ a:focus {
 }
 
 .section3-tit {
-  color: rgba(50, 6, 6, 0.7);
+  color: #333;
+  font-family: "Rufina", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
